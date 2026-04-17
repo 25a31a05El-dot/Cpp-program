@@ -1,0 +1,83 @@
+ALGORITHM: INVENTORY MANAGEMENT SYSTEM
+
+Step 1: Start
+
+Step 2: Declare a structure "Item" with fields:
+        - Item ID (integer)
+        - Item Name (string)
+        - Quantity (integer)
+        - Price (float)
+
+Step 3: Initialize variables:
+        - Create array/vector to store items
+        - Set count = 0
+        - Declare choice variable
+
+Step 4: Begin loop (repeat until user selects Exit)
+
+Step 5: Display the menu:
+        1. Add Item
+        2. Display All Items
+        3. Search Item
+        4. Update Item
+        5. Delete Item
+        6. Exit
+
+Step 6: Enter user choice
+
+Step 7: Check choice using switch-case or if-else
+
+        Case 1: Add Item
+            a. Enter Item ID
+            b. Enter Item Name
+            c. Enter Quantity
+            d. Enter Price
+            e. Store item in array at position count
+            f. Increment count by 1
+            g. Display "Item Added Successfully"
+
+        Case 2: Display All Items
+            a. If count == 0
+                   Display "Inventory is Empty"
+            b. Else
+                   For i = 0 to count - 1
+                       Display item details
+
+        Case 3: Search Item
+            a. Enter Item ID to search
+            b. Set found = false
+            c. For i = 0 to count - 1
+                   If item ID matches
+                       Display item details
+                       Set found = true
+                       Break loop
+            d. If found == false
+                   Display "Item Not Found"
+
+        Case 4: Update Item
+            a. Enter Item ID
+            b. Set found = false
+            c. For i = 0 to count - 1
+                   If item ID matches
+                       Enter new Quantity
+                       Enter new Price
+                       Update values
+                       Display "Item Updated"
+                       Set found = true
+                       Break loop
+            d. If found == false
+                   Display "Item Not Found"
+
+        Case 5: Delete Item
+            a. Enter Item ID
+            b. Set found = false
+            c. For i = 0 to count - 1
+                   If item ID matches
+                       For j = i to count - 2
+                           Shift items left (arr[j] = arr[j+1])
+                       Decrement count by 1
+                       Display "Item Deleted"
+                       Set found = true
+                       Break loop
+            d. If found == false
+                   Display
