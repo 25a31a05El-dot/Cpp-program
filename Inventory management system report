@@ -1,0 +1,74 @@
+Inventory Management System
+1. Abstract
+An Inventory Management System is a software application used to track, manage, and control stock levels, orders, sales, and deliveries. It helps businesses maintain optimal inventory, reduce losses, and improve efficiency. The system stores product details in an organized manner and allows quick access to stock information. It also helps in generating reports for better decision-making and smooth business operations.
+2. Introduction
+Inventory management is an essential part of any business that deals with products. Manual tracking can lead to errors, missing records, and inefficiencies. This system automates stock handling, making the process faster and more accurate. It ensures that products are available when needed and avoids overstocking or shortages. With digital management, businesses can improve productivity and customer satisfaction.
+3. Objective
+To maintain accurate stock records
+To reduce manual errors
+To track product availability
+To improve business efficiency
+To generate reports easily
+To simplify inventory handling
+To save time and effort
+4. Software Requirements
+Operating System: Windows / Linux
+Programming Language: C++ / Java / Python
+Database: MySQL (optional)
+IDE: Code::Blocks / VS Code
+Compiler for program execution
+Text editor for modifications
+5. Hardware Requirements
+Computer or Laptop
+Minimum 4GB RAM
+Storage: 500GB HDD or above
+Keyboard and mouse
+Stable power supply
+Internet connection (optional for updates)
+6. Features
+Add new products
+Update product details
+Delete products
+View stock details
+Search products
+Generate reports
+Display available stock
+Alert for low stock levels
+7. Methodology
+The system follows a structured approach to manage inventory effectively. Product details are entered by the user and stored in the database or files. The system processes user requests such as adding, updating, deleting, or searching products. It then displays updated information instantly. Reports are generated for analysis and decision-making.
+8. Working Process
+User enters product details
+System stores the data
+User can update or delete items
+System checks stock levels
+Displays available inventory
+Generates reports when needed
+Maintains accurate records automatically
+9. Technology Used
+Programming Language: C++
+Concepts: OOP, File Handling
+Tools: Compiler, IDE
+Data Structures for storing product details
+Database integration (optional)
+10. Applications
+Retail stores
+Warehouses
+Supermarkets
+E-commerce businesses
+Medical stores
+Libraries
+Manufacturing industries
+11. Advantages
+Saves time
+Reduces errors
+Easy to use
+Improves efficiency
+Better stock control
+Quick access to information
+Helps in better planning
+12. Limitations
+Requires basic technical knowledge
+Initial setup needed
+Depends on system performance
+Requires regular maintenance
+Data loss may occur without backup
